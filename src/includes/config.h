@@ -35,7 +35,7 @@
 #define HAVE_WINDOWS_H 1
 
 /* "Inspect test suite errors" */
-#define INSPECT_ERRORS 1
+#define INSPECT_ERRORS 0
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */
