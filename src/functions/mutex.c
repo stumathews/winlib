@@ -7,10 +7,24 @@ HANDLE GetOwningNewMutex()
 				    // lpMutexAttributes 
 				    NULL,
 			            // bInitialOwner 
-				    FALSE,
+				    TRUE,
 			            // lpName
 				    NULL );
 	return hMutex;
 }
+
+HANDLE GetNewMutex()
+{
+	HANDLE hMutex = CreateMutex(
+				    // lpMutexAttributes 
+				    NULL,
+			            // bInitialOwner 
+				    FALSE,
+			            // lpName
+				    NULL );
+	return hMutex;
+				 
+}
+
 
 
