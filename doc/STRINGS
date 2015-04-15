@@ -1,0 +1,12 @@
+
+
+TYPE        Meaning in MCS(DBCS) Build        Meaning in Unicode build
+-------     -------------------------         ------------------------
+WCHAR       wchar_t                           wchar_t
+LPSTR       zero terminated char*             zero term' char*
+LPCSTR      zero term' const char*            zero term' const char*
+LPWSTR      zero term' wchar_t                zero term' wchar_t
+LPCWSTR     zero term' const wchar_t          zero term' const wchar_t
+TCHAR       char                              wchar_t
+LPTSTR      zero term' TCHAR*                 zero term' TCHAR*
+LPCTSTR     zero term' const TCHAR*           zero term' const TCHAR*
